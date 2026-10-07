@@ -6,7 +6,7 @@ from hashlib import sha256
 
 ROOT=Path(__file__).resolve().parents[1]
 OUTPUT=ROOT/'dist'
-ALLOWED=['engine','studio','tools','tests','docs','fixtures','hosting']
+ALLOWED=['engine','studio','tools','tests','docs','fixtures','hosting','skills']
 
 
 def build():
@@ -14,10 +14,10 @@ def build():
     paths=[]
     for directory in ALLOWED:
         paths.extend(p for p in (ROOT/directory).rglob('*') if p.is_file() and not any(part in {'__pycache__','node_modules'} for part in p.parts) and p.suffix!='.pyc')
-    paths.extend(ROOT/name for name in ['README.md','pyproject.toml','run.py','.replit','.env.example','.gitignore'] if (ROOT/name).is_file())
+    paths.extend(ROOT/name for name in ['README.md','AGENTS.md','pyproject.toml','run.py','.replit','.env.example','.gitignore'] if (ROOT/name).is_file())
     evidence=ROOT/'test-results'
     if evidence.exists():
-        paths.extend(p for p in evidence.iterdir() if p.name in {'smoke-report.json','unit-test-report.json','studio-accessibility.json','projects-desktop.png','projects-mobile.png','final-review-desktop.png','verification-report.json'})
+        paths.extend(p for p in evidence.iterdir() if p.name in {'smoke-report.json','unit-test-report.json','studio-accessibility.json','projects-desktop.png','projects-mobile.png','final-review-desktop.png','verification-report.json','mcp-smoke-report.json'})
     archive=OUTPUT/'website-production-studio-1.0.0.zip'
     manifest={}
     with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as bundle:

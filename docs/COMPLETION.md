@@ -71,3 +71,10 @@ Source distribution: `dist/website-production-studio-1.0.0.zip`; integrity repor
 - Claude remains NOT_CONFIGURED without `ANTHROPIC_API_KEY`; core operation continues. No consultation was fabricated.
 - Webflow, live deployment/publishing and arbitrary business integrations require compatible credentialed adapters. Existing-site public audit does not authorize removal of business-critical integrations.
 - No irreversible publication, domain change, purchase or production deletion was performed. Finished artifacts and rollback preparation are concrete and reviewable before any later external authorization.
+
+
+## Chat integration addition
+
+The independently invocable Engine now also has an official-SDK MCP stdio server, fourteen typed tools, a chat production prompt, Codex workspace instructions and a distributable website-production skill. Studio use is optional. The added chat bridge delegates to the same Engine and persistence; approval and release gates remain enforced. Five added bridge tests bring automated tests to **31 PASS**; a separate actual MCP protocol smoke reports **14 PASS** checks including real browser QA/production and process-restart recovery. See [CHAT_INTEGRATION.md](CHAT_INTEGRATION.md).
+
+Client/account MCP registration and a remote authenticated connection to the separate Replit data store are not represented as completed. The local chat integration is functioning; a selectable account @ entry cannot be created from the managed client configuration available in this session.

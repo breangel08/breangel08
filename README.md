@@ -79,3 +79,8 @@ Automated accessibility audits use axe-core plus keyboard/name/label checks. The
 Shopify local syntax/schema/package validation can run without store access. Live products, checkout, customer accounts, editor behavior, app compatibility and installation require an authenticated development store. No live Shopify store was modified. Claude is advisory and optional (`ANTHROPIC_API_KEY`); unavailable integrations never fabricate output.
 
 See [architecture and protocols](docs/PROTOCOLS.md), [security](docs/SECURITY.md), [recovery and release](docs/OPERATIONS.md), [94-section self-audit](docs/SELF_AUDIT.md) and [completion evidence](docs/COMPLETION.md).
+
+
+## Work through Codex chat
+
+The Studio is optional. In this source workspace, say **Use website-production…**; AGENTS.md loads the chat workflow, and Codex operates the same Engine directly. The official-SDK MCP server exposes fourteen typed tools and persistent jobs with the same approval/QA/recovery authority. See [Chat integration](docs/CHAT_INTEGRATION.md) for installation, state scope and client registration. A selectable account connector and a connection to the separately hosted Replit store are not claimed installed.

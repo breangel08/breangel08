@@ -1,2 +1,7 @@
-node_modules/
+data/
+__pycache__/
+*.pyc
 .env
+.venv/
+test-results/
+node_modules/

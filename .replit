@@ -1,0 +1,5 @@
+run = "python hosting/start.py"
+
+[[ports]]
+localPort = 8000
+externalPort = 80

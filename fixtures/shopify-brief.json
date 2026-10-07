@@ -1,0 +1,39 @@
+{
+  "brand_name": "Still Objects \u2014 Shopify demo",
+  "website_type": "FULL_ECOMMERCE_STORE",
+  "target": "SHOPIFY",
+  "demo": true,
+  "instructions": "Fictional Shopify adapter test. Do not invent products, prices, reviews or availability. Bind commerce to native Shopify data.",
+  "goals": "Exercise a real native Liquid theme, validation and honest remote QA blockers",
+  "offerings": [],
+  "palette": [
+    "#f5f2ec",
+    "#312c27",
+    "#704b36"
+  ],
+  "functionality": [
+    "products",
+    "variants",
+    "cart",
+    "checkout",
+    "search",
+    "contact form"
+  ],
+  "content": [
+    {
+      "id": "hero_heading",
+      "text": "Objects, thoughtfully placed.",
+      "permission": "SUPPLIED"
+    },
+    {
+      "id": "hero_body",
+      "text": "A fictional storefront direction. Real product data belongs to the connected Shopify store.",
+      "permission": "SUPPLIED"
+    },
+    {
+      "id": "cta_label",
+      "text": "Explore the collection",
+      "permission": "SUPPLIED"
+    }
+  ]
+}

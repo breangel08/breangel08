@@ -1,0 +1,97 @@
+{
+  "brand_name": "Fieldwork \u2014 demo",
+  "website_type": "SERVICE_WEBSITE",
+  "target": "CUSTOM_WEB",
+  "demo": true,
+  "goals": "Present the fictional studio's work and accept project enquiries",
+  "audience": "People interested in considered spaces and objects",
+  "instructions": "A restrained editorial direction. Warm ivory, deep olive, generous typography. Let the supplied image anchor the composition. Preserve exact imagery and approved copy. This is a fictional test project; no real-company claims.",
+  "references": [
+    {
+      "url": "https://reference.example.invalid/",
+      "role": "composition"
+    }
+  ],
+  "offerings": [
+    "Objects for living",
+    "Spaces with intention",
+    "Creative direction"
+  ],
+  "functionality": [
+    "contact form",
+    "navigation",
+    "responsive",
+    "seo"
+  ],
+  "palette": [
+    "#f4f1e9",
+    "#303b2d",
+    "#465d3d"
+  ],
+  "fonts": [
+    "Georgia",
+    "Arial"
+  ],
+  "requirements": [
+    {
+      "classification": "LOCKED",
+      "area": "content",
+      "text": "Use only the supplied fictional copy"
+    },
+    {
+      "classification": "FORBIDDEN",
+      "area": "design",
+      "text": "No gradients, invented testimonials or decorative icon strips"
+    }
+  ],
+  "content": [
+    {
+      "id": "hero_heading",
+      "text": "A quieter kind\nof everyday.",
+      "permission": "SUPPLIED",
+      "source": "Explicit fictional fixture"
+    },
+    {
+      "id": "hero_body",
+      "text": "Objects, spaces and ideas, considered together. An exploration of how we live with less, and live with intention.",
+      "permission": "SUPPLIED",
+      "source": "Explicit fictional fixture"
+    },
+    {
+      "id": "cta_label",
+      "text": "Start a conversation",
+      "permission": "SUPPLIED",
+      "source": "Explicit fictional fixture"
+    },
+    {
+      "id": "offerings_heading",
+      "text": "Our practice",
+      "permission": "SUPPLIED",
+      "source": "Explicit fictional fixture"
+    },
+    {
+      "id": "about_heading",
+      "text": "Room for what matters.",
+      "permission": "SUPPLIED",
+      "source": "Explicit fictional fixture"
+    },
+    {
+      "id": "about_body",
+      "text": "Fieldwork is a fictional creative studio built for this production-engine demonstration. The sample explores a warm, editorial website system with a concise offering narrative and a working enquiry flow.",
+      "permission": "SUPPLIED",
+      "source": "Explicit fictional fixture"
+    },
+    {
+      "id": "hero_alt",
+      "text": "Illustrated terracotta vessels on a warm ivory plinth \u2014 fictional sample artwork",
+      "permission": "SUPPLIED",
+      "source": "Explicit fictional fixture"
+    },
+    {
+      "id": "meta_description",
+      "text": "Fieldwork is a fictional studio demonstration: objects, spaces and creative direction.",
+      "permission": "SUPPLIED",
+      "source": "Explicit fictional fixture"
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+{
+  "sections": [
+    {
+      "section": 0,
+      "requirement": "Execution directive",
+      "evaluation": "Implemented",
+      "evidence": "Runnable application, Engine, fixtures, tests and native artifacts"
+    },
+    {
+      "section": 1,
+      "requirement": "Product architecture",
+      "evaluation": "Implemented",
+      "evidence": "studio/app.py is presentation; engine/service.py owns authority; CLI is independent"
+    },
+    {
+      "section": 2,
+      "requirement": "Autonomy model",
+      "evaluation": "Implemented",
+      "evidence": "Level 5 default; automatic discovery/production/QA/repair; only human gates"
+    },
+    {
+      "section": 3,
+      "requirement": "Batched uncertainty",
+      "evaluation": "Implemented",
+      "evidence": "Validated Decision model and persistent dependency-filtered pending_decisions"
+    },
+    {
+      "section": 4,
+      "requirement": "Human approval model",
+      "evaluation": "Implemented",
+      "evidence": "Brief submission, visual Keep, final approval; intermediate jobs autonomous"
+    },
+    {
+      "section": 5,
+      "requirement": "Website Production Studio",
+      "evaluation": "Implemented",
+      "evidence": "Projects, intake, dashboard, visual review, production, QA and final review"
+    },
+    {
+      "section": 6,
+      "requirement": "Projects experience",
+      "evaluation": "Implemented",
+      "evidence": "SQLite project revisions and persistent artifacts/events; honest project cards"
+    },
+    {
+      "section": 7,
+      "requirement": "Website type selection",
+      "evaluation": "Implemented",
+      "evidence": "All eleven business types plus AUTO are visible/selectable"
+    },
+    {
+      "section": 8,
+      "requirement": "Production target",
+      "evaluation": "Implemented",
+      "evidence": "Separate target/scope; Custom Web and Shopify registry; Webflow honest blocker"
+    },
+    {
+      "section": 9,
+      "requirement": "Intake experience",
+      "evaluation": "Implemented",
+      "evidence": "Natural instructions, roles/URLs, upload/drop, audience/goals/offerings/requirements/approved copy"
+    },
+    {
+      "section": 10,
+      "requirement": "Reference modes",
+      "evaluation": "Implemented",
+      "evidence": "Original/reference mode records and common gated workflow"
+    },
+    {
+      "section": 11,
+      "requirement": "Multi-reference authority",
+      "evaluation": "Implemented",
+      "evidence": "Role assignments/confidence and principle provenance; no source assets transferred"
+    },
+    {
+      "section": 12,
+      "requirement": "Reference forensics",
+      "evaluation": "Bounded",
+      "evidence": "Public HTML inventory, desktop/mobile/section captures and geometry; no unobserved motion claimed"
+    },
+    {
+      "section": 13,
+      "requirement": "Reference confidence",
+      "evaluation": "Implemented",
+      "evidence": "HIGH/MEDIUM/LOW/UNKNOWN contract; inaccessible facts remain UNKNOWN"
+    },
+    {
+      "section": 14,
+      "requirement": "Reference \u2192 interpretation \u2192 result",
+      "evaluation": "Implemented",
+      "evidence": "Persisted transfer records contain observation/principle/interpretation/implementation/source"
+    },
+    {
+      "section": 15,
+      "requirement": "Copyright safeguard",
+      "evaluation": "Implemented",
+      "evidence": "Source HTML is evidence-only; production takes supplied/approved assets/content"
+    },
+    {
+      "section": 16,
+      "requirement": "Existing website ingestion",
+      "evaluation": "Bounded",
+      "evidence": "Five pages plus route inventory/metadata/content/forms; private integrations require audit evidence"
+    },
+    {
+      "section": 17,
+      "requirement": "Asset intelligence",
+      "evaluation": "Implemented",
+      "evidence": "Types, dimensions, transparency, size, exact hashes, role, restrictions, dedup, document extraction"
+    },
+    {
+      "section": 18,
+      "requirement": "Brand Constitution",
+      "evaluation": "Implemented",
+      "evidence": "Classified authority, locked tokens/assets, guide rules and conservative requirement interpretation"
+    },
+    {
+      "section": 19,
+      "requirement": "Content permission",
+      "evaluation": "Implemented",
+      "evidence": "Only SUPPLIED/APPROVED render; unauthorized/research facts held; rendered-text integrity checks"
+    },
+    {
+      "section": 20,
+      "requirement": "Research engine",
+      "evaluation": "Bounded",
+      "evidence": "Retrieved standards/platform evidence, public RSS category search and up to two fetched candidates; no invented market rankings"
+    },
+    {
+      "section": 21,
+      "requirement": "Sitemap intelligence",
+      "evaluation": "Implemented",
+      "evidence": "Small architecture follows supplied content, contact requirements and native commerce scope"
+    },
+    {
+      "section": 22,
+      "requirement": "Platform intelligence before design",
+      "evaluation": "Implemented",
+      "evidence": "Capability/constraint/data-ownership strategy and blockers before visual approval"
+    },
+    {
+      "section": 23,
+      "requirement": "Design strategy",
+      "evaluation": "Implemented",
+      "evidence": "Versioned platform/brand/asset/reference/content/audience/goal synthesis"
+    },
+    {
+      "section": 24,
+      "requirement": "Claude collaboration",
+      "evaluation": "Implemented boundary",
+      "evidence": "Optional real API call/retries/status/null fallback; no fake critic; advisory authority"
+    },
+    {
+      "section": 25,
+      "requirement": "Multi-role production",
+      "evaluation": "Implemented",
+      "evidence": "Named responsibilities and independent QA function; developer has no final-PASS endpoint"
+    },
+    {
+      "section": 26,
+      "requirement": "Anti-generic design gate",
+      "evaluation": "Implemented",
+      "evidence": "Pre-review artifact critique checks content, image roles, rhythm, tokens and social-proof path"
+    },
+    {
+      "section": 27,
+      "requirement": "Visual direction",
+      "evaluation": "Implemented",
+      "evidence": "Clickable page prototypes and six viewport captures precede production"
+    },
+    {
+      "section": 28,
+      "requirement": "Visual review",
+      "evaluation": "Implemented",
+      "evidence": "Desktop/tablet/mobile, pages, Keep/Revise/Reject and natural feedback"
+    },
+    {
+      "section": 29,
+      "requirement": "Surgical revision",
+      "evaluation": "Implemented",
+      "evidence": "Supported scoped token patches; unrelated spec inherited; unsupported tasks remain decisions"
+    },
+    {
+      "section": 30,
+      "requirement": "Approval ledger",
+      "evaluation": "Implemented",
+      "evidence": "Versioned brief/visual/final approvals plus immutable on-disk authority"
+    },
+    {
+      "section": 31,
+      "requirement": "Design Lock",
+      "evaluation": "Implemented",
+      "evidence": "Locked spec SHA-256, prototype/capture manifests and immutable version file"
+    },
+    {
+      "section": 32,
+      "requirement": "Design versioning",
+      "evaluation": "Implemented",
+      "evidence": "Version/time/feedback/changes/locked fields/changed fields/state/supersession persisted"
+    },
+    {
+      "section": 33,
+      "requirement": "Production orchestration",
+      "evaluation": "Implemented",
+      "evidence": "Build plan \u2192 native adapter \u2192 independent QA \u2192 bounded repair \u2192 release candidate"
+    },
+    {
+      "section": 34,
+      "requirement": "Platform adapter architecture",
+      "evaluation": "Implemented",
+      "evidence": "Formal ABC contracts, capabilities/constraints/build/validation/deployment and package strategy"
+    },
+    {
+      "section": 35,
+      "requirement": "Shopify principle",
+      "evaluation": "Implemented",
+      "evidence": "Shopify is a production target, not a business website type"
+    },
+    {
+      "section": 36,
+      "requirement": "Shopify scope inference",
+      "evaluation": "Implemented",
+      "evidence": "New build/redesign/existing-store extension inferred; outputs remain isolated development artifacts"
+    },
+    {
+      "section": 37,
+      "requirement": "Shopify native production",
+      "evaluation": "Implemented",
+      "evidence": "Liquid layout/sections/snippets, JSON templates, config/locales/assets; no React/static relabeling"
+    },
+    {
+      "section": 38,
+      "requirement": "Shopify dynamic data",
+      "evaluation": "Implemented locally",
+      "evidence": "Product/variant/price/media/availability/selling-plan/collection/menu/cart/blog/account/localization bindings"
+    },
+    {
+      "section": 39,
+      "requirement": "Merchant editability",
+      "evaluation": "Implemented locally",
+      "evidence": "Constrained image/copy/link/menu/collection settings with validated schemas"
+    },
+    {
+      "section": 40,
+      "requirement": "Existing Shopify safety",
+      "evaluation": "Implemented",
+      "evidence": "Public audit/preservation dependency; only separate packages; no destructive live API"
+    },
+    {
+      "section": 41,
+      "requirement": "Shopify theme package",
+      "evaluation": "Local PASS / remote BLOCKED",
+      "evidence": "Official validator plus JSON/schema/assets/locales/native structure and CRC/SHA package tests"
+    },
+    {
+      "section": 42,
+      "requirement": "CMS/content ownership",
+      "evaluation": "Implemented",
+      "evidence": "Shopify store/section-owned dynamic facts; Custom Web source-controlled authorized content"
+    },
+    {
+      "section": 43,
+      "requirement": "Custom Web production",
+      "evaluation": "Implemented",
+      "evidence": "Semantic responsive reusable rendering, progressive interactions, enquiry service and handoff"
+    },
+    {
+      "section": 44,
+      "requirement": "Visual QA",
+      "evaluation": "Implemented",
+      "evidence": "Independent browser captures and composition comparison against hash-verified approval"
+    },
+    {
+      "section": 45,
+      "requirement": "Visual diff system",
+      "evaluation": "Implemented",
+      "evidence": "Approved/actual/diff images, viewport, changed area, thresholds and defects retained"
+    },
+    {
+      "section": 46,
+      "requirement": "Functional QA",
+      "evaluation": "Implemented in scope",
+      "evidence": "Links/fragments/assets/browser exceptions/mobile menus/keyboard/contact success and error; Shopify live BLOCKED"
+    },
+    {
+      "section": 47,
+      "requirement": "Responsive QA",
+      "evaluation": "Implemented",
+      "evidence": "1600/1366/1024/768/430/360 widths, overflow, loading, controls and menu transformation"
+    },
+    {
+      "section": 48,
+      "requirement": "Accessibility QA",
+      "evaluation": "Implemented automated scope",
+      "evidence": "axe-core WCAG audit plus names/labels/headings/alt/focus; no exhaustive manual certification claim"
+    },
+    {
+      "section": 49,
+      "requirement": "Performance QA",
+      "evaluation": "Implemented local scope",
+      "evidence": "Explicit total/JS/CSS/image byte budgets and controlled navigation timings; no field-score fabrication"
+    },
+    {
+      "section": 50,
+      "requirement": "SEO/discoverability",
+      "evaluation": "Bounded",
+      "evidence": "Titles/authorized descriptions/OG/semantics/navigation/robots/route manifest; domain/canonical sitemap configuration at deployment"
+    },
+    {
+      "section": 51,
+      "requirement": "Content Integrity QA",
+      "evaluation": "Implemented",
+      "evidence": "Permission/spec checks plus all static rendered text traceable to supplied content/interface labels"
+    },
+    {
+      "section": 52,
+      "requirement": "Asset Integrity QA",
+      "evaluation": "Implemented",
+      "evidence": "Original SHA-256, file references, browser loading and resolution evidence"
+    },
+    {
+      "section": 53,
+      "requirement": "Autonomous repair loop",
+      "evaluation": "Implemented",
+      "evidence": "Actual detected defects \u2192 restore \u2192 retest; alternate reinitialization retains failed output"
+    },
+    {
+      "section": 54,
+      "requirement": "Defect model",
+      "evaluation": "Implemented",
+      "evidence": "ID/category/severity/evidence/expected/actual/component/role/attempts/status/blocking"
+    },
+    {
+      "section": 55,
+      "requirement": "Retry/failure policy",
+      "evaluation": "Implemented",
+      "evidence": "Three QA runs/two repairs; persistent failures block; code revision enables evidenced retest"
+    },
+    {
+      "section": 56,
+      "requirement": "Project state",
+      "evaluation": "Implemented",
+      "evidence": "Schema/version/stages/assets/evidence/constitution/content/design/approval/build/QA/decisions/release/integrations"
+    },
+    {
+      "section": 57,
+      "requirement": "Recovery/resume",
+      "evaluation": "Implemented",
+      "evidence": "State/hash/artifact validation and next-valid-operation; restart preserves authority"
+    },
+    {
+      "section": 58,
+      "requirement": "Checkpoints",
+      "evaluation": "Implemented",
+      "evidence": "Persistent named stage events from intake through approvals/QA/package"
+    },
+    {
+      "section": 59,
+      "requirement": "Engine versioning",
+      "evaluation": "Implemented",
+      "evidence": "Engine/schema/adapter/design/build/release versions and implementation fingerprint; unknown schema blocked"
+    },
+    {
+      "section": 60,
+      "requirement": "Project file architecture",
+      "evaluation": "Implemented",
+      "evidence": "Purposeful modules/artifact folders; fixture state separated from customer projects"
+    },
+    {
+      "section": 61,
+      "requirement": "Authority documents",
+      "evaluation": "Implemented",
+      "evidence": "PROTOCOLS.md covers implemented authority/contracts; OPERATIONS.md and SECURITY.md govern boundaries"
+    },
+    {
+      "section": 62,
+      "requirement": "Security/secrets",
+      "evaluation": "Implemented local scope",
+      "evidence": "Environment secrets, authenticated access, safe messages, CSP sandbox, bounded uploads, SSRF checks"
+    },
+    {
+      "section": 63,
+      "requirement": "External integration contract",
+      "evaluation": "Implemented",
+      "evidence": "Claude/Shopify/Webflow declare configuration/health/capabilities/fallback/retries/authentication"
+    },
+    {
+      "section": 64,
+      "requirement": "Claude status",
+      "evaluation": "NOT_CONFIGURED",
+      "evidence": "Core works without key; optional adapter makes genuine requests when configured"
+    },
+    {
+      "section": 65,
+      "requirement": "Browser/reference access failure",
+      "evaluation": "Implemented",
+      "evidence": "Text/browser alternate evidence, accurate unknown/unavailable state, independent work continues"
+    },
+    {
+      "section": 66,
+      "requirement": "Project activity log",
+      "evaluation": "Implemented",
+      "evidence": "Append-only role-tagged meaningful events shown without chain-of-thought"
+    },
+    {
+      "section": 67,
+      "requirement": "No action needed UX",
+      "evaluation": "Implemented",
+      "evidence": "Real active-job status distinguishes autonomous work from gates/dependency blockers"
+    },
+    {
+      "section": 68,
+      "requirement": "Visual progress",
+      "evaluation": "Implemented",
+      "evidence": "Named completed checkpoint counts, no fake duration or metrics"
+    },
+    {
+      "section": 69,
+      "requirement": "Final review",
+      "evaluation": "Implemented",
+      "evidence": "QA-only candidate, page preview, target/results/readiness; explicit final-approval control"
+    },
+    {
+      "section": 70,
+      "requirement": "Irreversible actions",
+      "evaluation": "Implemented",
+      "evidence": "No automatic live publishing/deletion/domain/paid action; reversible preparation only"
+    },
+    {
+      "section": 71,
+      "requirement": "Deployment and release",
+      "evaluation": "Implemented preparation",
+      "evidence": "Requirements/procedure/validation/rollback/candidate metadata; live hosting credentials not configured"
+    },
+    {
+      "section": 72,
+      "requirement": "Safe release/rollback",
+      "evaluation": "Implemented preparation",
+      "evidence": "Prior builds/releases preserved; versioned promotion/rollback procedure; no unconfigured release claims"
+    },
+    {
+      "section": 73,
+      "requirement": "Production packaging",
+      "evaluation": "Implemented",
+      "evidence": "Target-native output, archive CRC and per-entry SHA against build manifest; diagnostics labeled"
+    },
+    {
+      "section": 74,
+      "requirement": "Monitoring architecture",
+      "evaluation": "Implemented boundary",
+      "evidence": "Release metadata provides baseline/URL/id/event/defect extension contract; continuous monitor not required V1"
+    },
+    {
+      "section": 75,
+      "requirement": "Original mode",
+      "evaluation": "Bounded",
+      "evidence": "Brand/assets/audience/goals/UX/platform architecture drive deterministic direction; bounded public category research; no fabricated market findings"
+    },
+    {
+      "section": 76,
+      "requirement": "Reference mode",
+      "evaluation": "Implemented",
+      "evidence": "Recorded roles, reliable evidence, confidence, transfer trail, branded interpretation and audit artifacts"
+    },
+    {
+      "section": 77,
+      "requirement": "Studio functional DoD",
+      "evaluation": "Implemented / tested",
+      "evidence": "Real project/UI controls through complete browser smoke; unavailable capabilities raise visible errors"
+    },
+    {
+      "section": 78,
+      "requirement": "Engine functional DoD",
+      "evaluation": "Implemented / tested",
+      "evidence": "State/checkpoints/intelligence/approvals/production/QA/defects/repair/recovery/releases all exercised"
+    },
+    {
+      "section": 79,
+      "requirement": "Shopify adapter DoD",
+      "evaluation": "Local implemented / tested",
+      "evidence": "Material native generation/validation/package/QA hooks; authenticated installation NOT_CONFIGURED"
+    },
+    {
+      "section": 80,
+      "requirement": "QA DoD",
+      "evaluation": "Implemented / tested",
+      "evidence": "Eight independent gate results; FAIL defects; BLOCKED reasons; no developer self-certification"
+    },
+    {
+      "section": 81,
+      "requirement": "Fixture project",
+      "evaluation": "Implemented / tested",
+      "evidence": "Fictional Custom Web and Shopify fixtures with isolated folders and explicitly fixture-only approvals"
+    },
+    {
+      "section": 82,
+      "requirement": "Automated testing",
+      "evaluation": "Implemented / executed",
+      "evidence": "Critical Engine/schema/security/gates/repair/recovery/adapter tests; real browser smoke"
+    },
+    {
+      "section": 83,
+      "requirement": "End-to-end smoke",
+      "evaluation": "Executed",
+      "evidence": "Real Studio/API/browser + tamper/repair + restart; report records each assertion"
+    },
+    {
+      "section": 84,
+      "requirement": "Error/empty/loading states",
+      "evaluation": "Implemented",
+      "evidence": "Authentication/empty/intake/working/unavailable/blocked/error/recovery states; no ordinary stack traces"
+    },
+    {
+      "section": 85,
+      "requirement": "Persistence testing",
+      "evaluation": "Executed",
+      "evidence": "Independent Store reload and real application restart preserve brief/approvals/locks"
+    },
+    {
+      "section": 86,
+      "requirement": "Recovery testing",
+      "evaluation": "Executed",
+      "evidence": "Injected interrupted durable job and real restart; next-valid-action and immutable lock checks"
+    },
+    {
+      "section": 87,
+      "requirement": "Studio UI quality",
+      "evaluation": "Implemented / reviewed",
+      "evidence": "Responsive hierarchy/density/accessible controls, real thumbnail/stage/history; screenshot inspection"
+    },
+    {
+      "section": 88,
+      "requirement": "Engine quality",
+      "evaluation": "Implemented",
+      "evidence": "Typed contracts, deterministic rules, optimistic revisions, bounded jobs, observable failures and modules"
+    },
+    {
+      "section": 89,
+      "requirement": "Prohibited shortcuts",
+      "evaluation": "Evaluated",
+      "evidence": "No fake crawler/critic/deployment/QA; real native files, browser tests and actual state"
+    },
+    {
+      "section": 90,
+      "requirement": "Master V1 Definition of Done",
+      "evaluation": "Evaluated",
+      "evidence": "Core checklist below; bounded intelligence and external store/deployment limits explicitly retained"
+    },
+    {
+      "section": 91,
+      "requirement": "Completion evidence",
+      "evaluation": "Documented",
+      "evidence": "COMPLETION.md plus test/validation/package evidence; no unsupported capability claims"
+    },
+    {
+      "section": 92,
+      "requirement": "Execution order",
+      "evaluation": "Executed",
+      "evidence": "Environment \u2192 Engine/Studio \u2192 adapters/QA \u2192 recovery/security/release \u2192 real tests \u2192 audit/package"
+    },
+    {
+      "section": 93,
+      "requirement": "Stop conditions",
+      "evaluation": "Evaluated",
+      "evidence": "Finish locally testable V1; optional credentials do not halt core; external next steps documented"
+    },
+    {
+      "section": 94,
+      "requirement": "Master authority/conflicts",
+      "evaluation": "Implemented",
+      "evidence": "User/brand/design authority wins; unsupported absolutes become decisions, scoped revisions inherit locks"
+    }
+  ],
+  "core_checklist": [
+    {
+      "item": "Studio application runs",
+      "evidence": "Real HTTP startup"
+    },
+    {
+      "item": "Project list works",
+      "evidence": "Browser project view"
+    },
+    {
+      "item": "New-project flow works",
+      "evidence": "Browser intake creation"
+    },
+    {
+      "item": "Website types visible/selectable",
+      "evidence": "Type radios and catalog"
+    },
+    {
+      "item": "Let engine decide works",
+      "evidence": "Classification unit test"
+    },
+    {
+      "item": "Separate production target",
+      "evidence": "Browser and schema"
+    },
+    {
+      "item": "Brief persists",
+      "evidence": "Browser restart"
+    },
+    {
+      "item": "References persist",
+      "evidence": "Two reference entries"
+    },
+    {
+      "item": "Reference roles supported",
+      "evidence": "Composition/navigation persistence"
+    },
+    {
+      "item": "Asset intake/inventory",
+      "evidence": "Upload, metadata/hash/dedup tests"
+    },
+    {
+      "item": "Brand Constitution functional",
+      "evidence": "Locked asset/token/rule state"
+    },
+    {
+      "item": "Content authority",
+      "evidence": "Unauthorized field exclusion/rendered-text QA"
+    },
+    {
+      "item": "Reference analysis functional",
+      "evidence": "Live source HTML and browser capture verification"
+    },
+    {
+      "item": "Research workflow",
+      "evidence": "Retrieved W3C/web.dev/Shopify source artifacts"
+    },
+    {
+      "item": "Architecture workflow",
+      "evidence": "Persisted sitemap/route inventories"
+    },
+    {
+      "item": "Platform intelligence before approval",
+      "evidence": "Capabilities/constraints and blockers"
+    },
+    {
+      "item": "Strategy workflow",
+      "evidence": "Versioned design strategy"
+    },
+    {
+      "item": "Visual review works",
+      "evidence": "Real page iframe/viewport controls"
+    },
+    {
+      "item": "Natural feedback persists",
+      "evidence": "Surgical revision browser assertion"
+    },
+    {
+      "item": "Keep/Revise/Reject state",
+      "evidence": "Validated actions and ledger"
+    },
+    {
+      "item": "Approval Ledger",
+      "evidence": "Versioned persistent approvals"
+    },
+    {
+      "item": "Design Lock",
+      "evidence": "Hash/manifest and artifact"
+    },
+    {
+      "item": "Surgical revision",
+      "evidence": "Unrelated fields unchanged assertion"
+    },
+    {
+      "item": "Production orchestration",
+      "evidence": "Post-approval automatic job"
+    },
+    {
+      "item": "Adapter architecture",
+      "evidence": "Registry/ABC tests"
+    },
+    {
+      "item": "Shopify material implementation",
+      "evidence": "32-file native validation evidence"
+    },
+    {
+      "item": "Custom Web adapter",
+      "evidence": "Real browser-tested output/contact service"
+    },
+    {
+      "item": "QA orchestration",
+      "evidence": "Eight actual independent results"
+    },
+    {
+      "item": "Defects from failures",
+      "evidence": "Injected unauthorized content/visual discrepancy"
+    },
+    {
+      "item": "Repair-loop state",
+      "evidence": "Restored approved output and retested"
+    },
+    {
+      "item": "Responsive QA",
+      "evidence": "Six viewport classes"
+    },
+    {
+      "item": "Accessibility QA",
+      "evidence": "axe-core plus keyboard/name/labels"
+    },
+    {
+      "item": "Performance QA",
+      "evidence": "Byte budgets/local navigation"
+    },
+    {
+      "item": "Content Integrity QA",
+      "evidence": "Rendered source trace and tamper detection"
+    },
+    {
+      "item": "Asset Integrity QA",
+      "evidence": "Exact original hash/browser loading"
+    },
+    {
+      "item": "Platform QA",
+      "evidence": "Custom PASS; Shopify remote honestly BLOCKED"
+    },
+    {
+      "item": "Release Candidate gating",
+      "evidence": "QA required and final tamper denial"
+    },
+    {
+      "item": "Persistent PROJECT_STATE",
+      "evidence": "SQLite plus artifact snapshots"
+    },
+    {
+      "item": "Checkpoints",
+      "evidence": "Named meaningful events"
+    },
+    {
+      "item": "Recovery/resume",
+      "evidence": "Interrupted job/application restart"
+    },
+    {
+      "item": "Pending decisions",
+      "evidence": "Dependency records/resolution tests"
+    },
+    {
+      "item": "Honest integration states",
+      "evidence": "No fake Claude/live store"
+    },
+    {
+      "item": "Security/secrets",
+      "evidence": "Token/CSRF/CSP/path/uploads/SSRF; local scope"
+    },
+    {
+      "item": "Fixture exists",
+      "evidence": "Two fictional separated projects"
+    },
+    {
+      "item": "Automated tests pass",
+      "evidence": "See latest unit report"
+    },
+    {
+      "item": "End-to-end smoke passes",
+      "evidence": "See latest smoke report"
+    },
+    {
+      "item": "Production build succeeds",
+      "evidence": "Actual artifacts and tested source/wheel package"
+    },
+    {
+      "item": "Documentation matches implementation",
+      "evidence": "Explicit boundaries/limits/procedures"
+    },
+    {
+      "item": "No fake core UI",
+      "evidence": "Browser controls operate persisted Engine state"
+    }
+  ]
+}

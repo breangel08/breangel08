@@ -5,43 +5,169 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GitHub Pages Practice Site</title>
   <style>
+    :root {
+      --ink: #17151d;
+      --muted: #6f6878;
+      --paper: #ffffff;
+      --lavender: #cdbcf6;
+      --violet: #7357d9;
+      --coral: #ff7d66;
+      --line: #e9e4ef;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      background: #f5f7fa;
-      color: #1f2937;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at 16% 18%, rgba(205, 188, 246, 0.48), transparent 26%),
+        radial-gradient(circle at 88% 78%, rgba(255, 125, 102, 0.20), transparent 24%),
+        #f7f4fb;
+      color: var(--ink);
+      display: grid;
+      place-items: center;
+      padding: 48px 24px;
     }
+
     main {
-      max-width: 760px;
-      margin: 72px auto;
-      padding: 36px;
-      background: #ffffff;
-      border: 1px solid #d9dee7;
-      border-radius: 16px;
+      position: relative;
+      width: min(960px, 100%);
+      min-height: 520px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 30px;
+      overflow: hidden;
+      box-shadow: 0 24px 70px rgba(54, 39, 75, 0.12);
+      display: grid;
+      grid-template-columns: 1.08fr 0.92fr;
     }
+
+    main::before {
+      content: "";
+      position: absolute;
+      width: 230px;
+      height: 230px;
+      border-radius: 50%;
+      background: var(--lavender);
+      top: -105px;
+      right: 130px;
+      opacity: 0.65;
+    }
+
+    main::after {
+      content: "";
+      position: absolute;
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      border: 26px solid rgba(255, 125, 102, 0.23);
+      left: -34px;
+      bottom: -30px;
+    }
+
+    .intro {
+      position: relative;
+      z-index: 1;
+      padding: 78px 58px 70px;
+      align-self: center;
+    }
+
     h1 {
-      margin-top: 0;
-      font-size: 2.4rem;
+      margin: 0 0 26px;
+      max-width: 560px;
+      font-size: clamp(2.8rem, 6vw, 5.5rem);
+      line-height: 0.96;
+      letter-spacing: -0.055em;
+      font-weight: 800;
     }
-    p {
-      line-height: 1.7;
-      font-size: 1.05rem;
+
+    .intro > p {
+      max-width: 560px;
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.8;
+      font-size: 1.06rem;
     }
+
     .note {
-      margin-top: 24px;
-      padding: 18px;
-      background: #eef4ff;
-      border-radius: 12px;
+      position: relative;
+      z-index: 1;
+      align-self: stretch;
+      padding: 72px 48px 52px;
+      background: var(--ink);
+      color: white;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+    }
+
+    .note::before {
+      content: "";
+      position: absolute;
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      background: var(--violet);
+      right: -95px;
+      top: -85px;
+    }
+
+    .note::after {
+      content: "";
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background: var(--coral);
+      right: 55px;
+      top: 95px;
+      opacity: 0.88;
+    }
+
+    .note p {
+      position: relative;
+      z-index: 1;
+      margin: 0;
+      max-width: 320px;
+      line-height: 1.75;
+      font-size: 1rem;
+    }
+
+    @media (max-width: 760px) {
+      main {
+        grid-template-columns: 1fr;
+        min-height: auto;
+      }
+
+      .intro {
+        padding: 64px 34px 48px;
+      }
+
+      .note {
+        min-height: 280px;
+        padding: 120px 34px 38px;
+      }
+
+      main::before {
+        right: -40px;
+      }
     }
   </style>
 </head>
 <body>
   <main>
-    <h1>My GitHub Pages Practice Site</h1>
-    <p>I created this simple website for my ITSE 1311 discussion assignment to practice publishing a webpage with GitHub Pages.</p>
-    <div class="note">
+    <section class="intro">
+      <h1>My GitHub Pages Practice Site</h1>
+      <p>I created this simple website for my ITSE 1311 discussion assignment to practice publishing a webpage with GitHub Pages.</p>
+    </section>
+
+    <section class="note">
       <p>This page is hosted from a GitHub repository and demonstrates how a static HTML page can be published online without setting up a traditional web server or using FTP.</p>
-    </div>
+    </section>
   </main>
 </body>
 </html>
